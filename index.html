@@ -11,7 +11,43 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
+    <form>
+      <ol>
+        <li>
+          <label for="fullname">Full Name</label>
+          <input placeholder="Enter Name" type="text" id="fullname" name="fullname">
+        </li>
 
+        <li>
+          <label for="email">Email:</label>
+          <input placeholder="Enter Email" type="text" id="email" name="email">
+        </li>
+        <li>
+          <label for="phone">Phone:</label>
+          <input placeholder="Enter phone:" type="text" id="phone" name="phone">
+        </li> 
+        <li>
+          <label for="message">Messages:</label>
+          <input placeholder="Enter Message:" type="text" id="message" name="message">
+        </li> 
+       <!--
+        <li>
+          <label for="information">information</label>
+          <select id="information" name="information">
+            <option value="fullname">Full Name</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+            <option value="Message">Message</option>
+          </select>
+        </li>
+       --> 
+      </ol>
+      <fieldset>
+        <legend>information</legend>
+        <label><input type="checkbox" name="checkbox"> Select me</label>
+      </fieldset>
+      <input type="submit" value="Submit">
+    </form>
 
       <!-- Add a label for 'fullname'-->
 
